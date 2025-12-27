@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkred;
+}
+
+header {
+    width: 1326px;
+}
+
+.top-right,
+ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    justify-content: end;
+    margin-top: 5px;
+}
+
+.top-right,
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner {
+    position: absolute;
+
+    top: 35;
+
+}
+
+.banner .logo {
+    position: absolute;
+    left: 135px;
+}
+
+.banner .uname {
+    position: absolute;
+    left: 300;
+}
+
+/* ------------------------nav-bar-------------------------------------- */
+.nav-bar{
+    width: 1326px;
+}
+.nav-bar .nav-ul {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    /* align-items: center; */
+    position: absolute;
+    top: 200;
+    left: 110px;
+    /* border: 2px solid black; */
+    padding:10px 57px ;
+
+    border-radius: 15px;
+    background-color: #fff;
+    /* color: #000; */
+    gap: 20px;
+}
+ .nav-ul>select{
+    width: 30px;
+}
+
+.nav-ul .nav-a {
+    color: #000;
+    padding: 3px 5px;
+    transition: 0.5s;
+}
+
+.nav-a:hover {
+    cursor: pointer;
+    background-color: darkred;
+    color: #fff;
+    border-radius: 5px;
+}
+.nav-ul select{
+    outline: none;
+    border: none;
+    text-decoration: none;
+    width: 100px;
+}
+.nav-ul select>option{
+    text-decoration: none;
+}
+
+.image1 {
+    position: absolute;
+    top: 270px;
+    /* right: 50px; */
+    left: 115px;
+    border-radius: 15px;
+    border: 4px solid #fff;
+    background-color: #c9c1c1;
+
+
+}
+
+.list1 {
+    /* position: absolute; */
+    /* top: 210px; */
+    /* right: 200px; */
+    margin-right: 265px;
+}
+
+.list1>li {
+    /* gap: 2px; */
+    padding: 5px;
+    /* background-color: #fff; */
+    /* color: #000; */
+    /* display:flex ; */
+    /* justify-content: center; */
+}
+
+.list1 .a1 {
+    color: #000;
+    /* background-color: #fff; */
+    /* padding: 15px 30px; */
+    /* padding: 0 15px; */
+    /* border-right: 1px solid #3b3a3a; */
+    margin-right: 10px;
+
+    /* gap: 50px; */
+    display: flex;
+    text-align: center;
+
+
+}
+
+/* =============================================main================================================================ */
+main {
+    /* border: 2px solid #000; */
+    width: 1155.5px;
+    height: auto;
+
+    /* margin-top: 30px; */
+    /* z-index: 100; */
+    /* position: relative; */
+    left: 121px;
+    top: 544;
+    background-color: #fff;
+    border-radius: 12px;
+    
+
+    margin-top: 570px;
+    margin-left: 120px;
+
+    /* margin-left:115px;
+    display: flex;
+    justify-content: space-between; */
+
+
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    /* gap: 50px; */
+    width: auto;
+    height: auto;
+    /* border: 5px solid red; */
+}
+
+.grid1>div {
+    /* border: 1px solid #000; */
+    width: 385px;
+    /* height: auto; */
+}
+
+/* =======================================colum1==================================================================== */
+.main-div1 .main-div3 {
+    width: 200px;
+}
+
+.image-div1 {
+    margin-left: 20px;
+}
+
+.student-portal {
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-right: 90px;
+    border: 0.5px solid rgb(206, 159, 159);
+
+}
+
+.amritmahotsav-imag {
+    /* border: 1px solid  rgb(206, 159, 159); */
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#azadi {
+    margin-left: 20px;
+    margin-top: 20px;
+    /* border: 1px solid  rgb(206, 159, 159); */
+}
+
+/* ================================================button==================================================== */
+#artificiallab {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 320px;
+    border: 0.5px solid rgb(206, 159, 159);
+}
+
+#non-teac {
+    margin-left: 20px;
+    margin-top: 20px;
+    /* border: 1px solid   rgb(206, 159, 159);  */
+}
+
+#online-fees {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid rgb(206, 159, 159);
+    width: 320px;
+    height: 205px;
+}
+
+#teaching {
+    margin-left: 20px;
+    margin-top: 20px;
+    /* border: 1px solid   rgb(206, 159, 159);  */
+}
+
+/* =========================================Letest News */
+.latestnews {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: red;
+
+    border-bottom: 0.5px solid rgb(206, 159, 159);
+    width: 320px;
+}
+
+#marquee2 {
+    margin-left: 20px;
+    width: 320px;
+    height: 250px;
+    margin-top: 20px;
+    border: 1px solid rgb(206, 159, 159);
+}
+
+.comh2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    border-bottom: 0.5px solid rgb(247, 85, 85);
+    width: 320px;
+    color: rgb(247, 85, 85);
+
+}
+
+.comittedd {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 0.5px solid rgb(206, 159, 159);
+    width: 320px;
+    height: 70px;
+
+
+}
+
+.comittedd .p2 {
+    margin-top: 20px;
+    margin-left: 180px;
+
+}
+
+.comittedd .p1 {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.photogallary {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 0.5px solid rgb(206, 159, 159);
+    width: 320px;
+    height: 150px;
+
+
+}
+
+.photogallary .p4 {
+    margin-top: 20px;
+    margin-left: 180px;
+}
+
+.nss {
+    width: 320px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border: 0.5px solid rgb(206, 159, 159);
+}
+
+.nss .p1 {
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+/* ========================================START SECOND COLUNM=========================================================== */
+#imageV {
+    /* border: 0.5px solid rgb(206,159,159); */
+    border-top: 1px solid rgb(206, 159, 159);
+    border-bottom: 1px solid rgb(206, 159, 159);
+    height: 150px;
+    margin-top: 30px;
+}
+
+#imageV .img {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.main-div2{
+    /* margin-left: 100px; */
+    /* position: absolute; */
+    /* left: 350px; */
+}
+.main-div3{
+    /* position: absolute; */
+    /* left: 300px; */
+}
+.paragraph1{
+    border: 0.5px solid rgb(206,159,159);
+    padding-top: 15px;
+}
+.main-div2>h4{
+    margin-bottom: 20px;
+    color: rgb(247, 85, 85);
+
+}
+.paragraph2{
+    border-top: 0.5px solid rgb(206,159,159);
+}
+.paragraph4{
+    border-bottom: 0.5px solid rgb(206,159,159);
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.affiliation{
+    /* color: rgb(247, 85, 85); */
+    border-bottom: 0.5px solid rgb(206,159,159);
+    /* margin-bottom: 20px; */
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.paragraph5{
+    border: 0.5px solid rgb(206,159,159);
+    
+    width: 385px;
+    height: 60px;
+}
+.image-yogi{
+    border: 0.5px solid rgb(206,159,159);
+    width: 255px;
+    height: 370px;
+    margin-left: 80px;
+}
+.image-yogi{
+    gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+ /* align-items: center; */
+     text-align: center;
+ 
+ /* padding-bottom: 220px; */
+    
+}
+.nirf{
+    border: 0.5px solid rgb(206,159,159);
+    margin-left: 81px;
+    margin-top: 20px;
+    width: 255px;
+    height: 70px;
+    padding: 5px;
+}
+button{
+    margin-top: 20px;
+    width: 255px;
+    height: 80px;
+    margin-left: 80px;
+    transition: transform 0.3s ease;
+}
+.btn8:hover{
+    transform: translateY(-3px);
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+     */
+     background-color:blue;
+
+}
+button img:hover{
+       cursor: pointer;
+       color: green;
+}
+.content{
+    /* display: flex; */
+    /* column-gap: 2px; */
+    /* justify-content: space-between; */
+    /* justify-content: space-between; */
+}
+.im{
+    margin-top: 20px;
+}
+/* =============================================footer================================================================ */
+footer{
+    background-color: #fff;
+    border: 0.5px solid rgb(206,159,159);
+    height: 266px;
+    margin-top: 10px;
+    margin-left: 118px;
+    width: 1155.5px;
+    border-radius: 25px;
+    z-index: -1;
+    
+    /* text-align: center; */
+}
+footer>p{
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.social-mediaicon{
+    gap: 22px;
+    display: flex;
+    font-size: 45px;
+    color: blue;
+}
+.l{
+    color: blue;
+}
+@media screen and (max-width: 768px) {
+    main {
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+        margin-left: 0px;   
+    }
+    
+}
