@@ -6,11 +6,11 @@ const Registrationbtn=document.getElementById("Registrationbtn")
 
 function openmodale(){
     form.style.display='flex'
-    Registrationbtn.style.backgroundColor='red'
-    Registrationbtn.style.color='white'
+    loginbtn.style.backgroundColor='red'
+    loginbtn.style.color='white'
 }
 function closemodale(){
     form.style.display='none'
-    Registrationbtn.style.backgroundColor='green'
-    Registrationbtn.style.color='black'
+    loginbtn.style.backgroundColor='green'
+    loginbtn.style.color='black'
 }
