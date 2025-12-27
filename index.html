@@ -26,6 +26,8 @@
                 <li><i class="fa-brands fa-facebook"></i></li>
                 <li><i class="fa-brands fa-instagram"></i></li>
                 <i class="fa-solid fa-phone"></i>
+                <li class="Loginfont" onclick="openmodaleforlogin()" id="loginbtn">Login</li>
+                <li class="Loginfont" onclick="openmodale()" id="Registrationbtn">Registration</li>
             </ul>
 
         </div>
@@ -91,6 +93,25 @@
         </nav> 
 
     </header>
+    <div class="Loginpage">
+        
+            <form >
+                <div class="cancle" id="canclebtn" onclick="closemodale()">
+                     <img src="./sakuntala-image/cancle.png" alt="" class="canclebtn">
+               </div>
+                  <h1 style="padding: 10px; text-align: center;">Registration Form</h1>
+                <label for="">User Name :</label>
+             <input type="text" placeholder="Enter name......" required>
+             <label for="">Email :</label>
+             <input type="email" required placeholder="Enter email......">
+             <label for="">Enroll No :</label>
+             <input type="number" required placeholder="Enter number.....">
+             <label for="">Passward :</label>
+             <input type="password" required placeholder="Enter password.....">
+             <button type="submit" id="submitbtn">Submit</button>
+            </form>
+        
+    </div>
     <!--  =========================================section Top================================================-->
     <section class="section1">
         <div class="image1">
@@ -424,7 +445,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script> -->
-
+<script src="script.js"></script>
 
 </body>
 

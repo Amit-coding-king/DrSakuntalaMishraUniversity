@@ -11,6 +11,73 @@ body {
 header {
     width: 1326px;
 }
+.Loginfont{
+    padding: 2px;
+    /* border: 1px solid black; */
+    background-color: chartreuse;
+    color: #000;
+    border-radius: 2px;
+    /* user-select: none; */
+    cursor: pointer;
+}
+.loginpage{
+/* display: none; */
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 99;
+width: 100%;
+height: 100vh;
+position: absolute;
+z-index: 99;
+
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    border: 1px solid red;
+    background-color: white;
+    padding: 20px ;
+    border-radius: 5px;
+    gap: 5px;
+    display: none;
+    
+}
+form input{
+    padding: 10px;
+}
+#submitbtn{
+    padding: 10px;
+    height: 100%;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: green;
+}
+#submitbtn:hover{
+    background-color: red;
+    color: white;
+}
+.cancle{
+    /* position: absolute; */
+    display: flex;
+justify-content: right;
+
+
+}
+.canclebtn{
+    width: 30px;
+    height: 30px;
+}
+label{
+    font-size:larger;
+    font-weight: bold;
+    font-style: normal;
+}
 
 .top-right,
 ul {
